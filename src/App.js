@@ -9,7 +9,7 @@ function App() {
   
 
   useEffect(() => {
-    fetch('http://localhost:3001/project/getAll')
+    fetch('https://shl-asign-backend.onrender.com/project/getAll')
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
